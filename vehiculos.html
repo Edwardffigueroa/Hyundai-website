@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hyundai | Vehículos </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
+<!--    <link rel="icon" href="http://zagamotos.zagacol.com/images/flavicon.png">-->
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png"/>
+    
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      
+        
+
+    <link rel="stylesheet" href="posventa.css">
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="stylesheet" href="vehiculos.css">
+    
+   
+    
+    
+    
+    
+
+</head>
+
+<body>
+ 
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="1631069413816430"
+  theme_color="#002E59"
+  logged_in_greeting="Hola! En que podemos ayudarte?"
+  logged_out_greeting="Hola! En que podemos ayudarte?">
+</div>
+  
+    <div class="main"> 
+   
+   <header>
+    
+ 
+       <div class="topHome">
+          
+           <a class="logo" href="index.html">
+           <img src="images/hyundai-del-pacifico.png" alt="Zagamotos" href="index.html">
+           </a>
+           <div class="redes hidden"><p><b>SIGUENOS:</b></p> <a href="https://www.facebook.com/hyundaidelpacifico/"><img src="images/facebook-azul.png" alt=""></a>
+           <a href="https://www.instagram.com/hyundaidelpacifico/"><img src="images/instagram-azul.png" alt=""></a></div>
+           
+           <p class="hidden"><b>PBX:</b>(2) 488 3888</p>
+           
+       </div>
+       
+       <div class="toggle"><img class="menuRes" src="images/menu_icon.png" alt=""></div>
+       
+       <div class="topMenu">
+          
+           <ul>
+              
+              <a class="" href="index.html"> <li>INICIO</li></a>
+               <a class="selectedM" href="vehiculos.html"><li>VEHÍCULOS</li></a>
+               <a class="" href="vitrinas.html"><li>VITRINAS</li></a>
+               <a class="" href="posventa.html"><li>POSVENTA</li></a>
+               <a class="" href="contacto.html"><li>CONTACTO</li></a>
+               
+           </ul>
+           
+       </div>
+       
+   </header>
+   
+   <div class="voidHeader"></div>
+   
+   
+   
+<div class="mainVehiculos">
+    
+    <h2>AUTOMÓVILES</h2>
+    
+    <div class="grid_vehiculos">
+        
+        <div class="car" data-target="#ion_Modal" data-toggle="modal">
+          
+           <img src="images/carros/wEon.png" alt="">
+           <p>Eon</p>
+            
+        </div>  
+        <div class="car" data-target="#grandi10_Modal" data-toggle="modal">
+          
+           <img src="images/carros/grand-i10-sedan.png" alt="">
+           <p>Grand i10 Sedan</p>
+            
+        </div>  
+        <div class="car" data-target="#i20_Modal" data-toggle="modal">
+          
+           <img src="images/carros/i20%20.png" alt="">
+           <p>i20</p>
+            
+        </div>  
+        <div class="car" data-target="#accent_Modal" data-toggle="modal">
+          
+           <img src="images/carros/accent.png" alt="">
+           <p>Accent Sedan</p>
+            
+        </div>  
+         <div class="car" data-target="#veloster_Modal" data-toggle="modal">
+          
+           <img src="images/carros/veloster.png" alt="">
+           <p>Veloster</p>
+            
+        </div>  
+        <div class="car" data-target="#elantra_Modal" data-toggle="modal">
+          
+           <img src="images/carros/elantra.png" alt="">
+           <p>Elantra</p>
+            
+        </div>  
+                <div class="car" data-target="#ionic_modal" data-toggle="modal">
+          
+           <img src="images/carros/ioniq-hibrido.png" alt="">
+           <p>Ioniq Hibrido</p>
+            
+        </div>  
+        
+        </div>  
+        
+    <h2>SUV-CAMIONETAS</h2>
+        
+    <div class="grid_vehiculos">
+            
+        <div class="car" data-target="#tucson_Modal" data-toggle="modal">
+          
+           <img src="images/carros/tucson.png" alt="">
+           <p>Tucson</p>
+            
+        </div>  
+           
+             <div class="car" data-target="#santafe_Modal" data-toggle="modal">
+          
+           <img src="images/carros/santa_fe.png" alt="">
+           <p>Santa Fe</p>
+            
+        </div>  
+           
+             <div class="car" data-target="#creta_Modal" data-toggle="modal">
+          
+           <img src="images/carros/suv_creta.png" alt="">
+           <p>Creta</p>
+            
+        </div>  
+            
+    </div>
+       
+       
+    <h2>TAXIS</h2>
+        
+    <div class="grid_vehiculos">
+            
+        <div class="car" data-target="#taxi_sedan_modal" data-toggle="modal">
+          
+           <img src="images/carros/taxi_metro_sedan.jpg" alt="">
+           <p>Grand Metro Sedan</p>
+            
+        </div>  
+           
+             <div class="car" data-target="#taxi_hatch_modal" data-toggle="modal">
+          
+           <img src="images/carros/taxi_metro_hatch.png" alt="">
+           <p>Grand Metro Hatch </p>
+            
+        </div>  
+           
+             <div class="car" data-target="#taxi_grand_sedan_modal_dos" data-toggle="modal">
+          
+           <img src="images/carros/taxi_super_metro.jpg" alt="">
+           <p>Súper Metro</p>
+            
+        </div>  
+            
+    </div>
+        
+        
+    <h2>COMERCIALES</h2>
+        
+    <div class="grid_vehiculos">
+           
+           
+            <div class="car" data-target="#h1_modal" data-toggle="modal">
+          
+           <img src="images/carros/h1.jpg" alt="">
+           <p>H1 Panel Carga</p>
+            
+        </div> 
+            
+        <div class="car" data-target="#ex100_modal" data-toggle="modal">
+          
+           <img src="images/carros/ex_100.png" alt="">
+           <p>EX 100</p>
+            
+        </div>  
+           
+             <div class="car" data-target="#ex90_modal" data-toggle="modal">
+          
+           <img src="images/carros/ex_90.png" alt="">
+           <p>EX 90</p>
+            
+        </div>  
+           
+             <div class="car" data-target="#hd55_modal" data-toggle="modal">
+          
+           <img src="images/carros/hd_55.png" alt="">
+           
+           <p>HD 55</p>
+            
+        </div>  
+           
+              <div class="car" data-target="#hd65_modal" data-toggle="modal">
+          
+           <img src="images/carros/hd65.png" alt="">
+           <p>HD 65</p>
+            
+        </div>  
+           
+                <div class="car" data-target="#hd78_modal" data-toggle="modal">
+          
+           <img src="images/carros/hd78.png" alt="">
+           <p>HD 78</p>
+            
+        </div>  
+           
+                <div class="car" data-target="" data-toggle="modal">
+          
+           <img src="images/carros/h_380.jpg" alt="">
+           <p>H 380</p>
+            
+        </div>  
+            
+    </div>
+        
+        
+        
+        
+        
+  <!-------------------------------------------- Modales ----------------------------->
+  
+<!--  automoviles-->
+  <div data-toggle="modal" class="modal fade" id="ion_Modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Eon</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+<!--
+         <embed src="/pdf/eon.pdf"
+                            frameborder="0" width="100%" height="600px">
+-->
+        <embed src="/pdf/eon.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+      
+      <div data-toggle="modal" class="modal fade" id="ionic_modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ioniq Hibrido
+
+</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+<!--
+         <embed src="/pdf/eon.pdf"
+                            frameborder="0" width="100%" height="600px">
+-->
+        <embed src="/pdf/Ioniq.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+       
+<div data-toggle="modal" class="modal fade" id="grandi10_Modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Grand i10 Sedan</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+<!--
+         <embed src="/pdf/eon.pdf"
+                            frameborder="0" width="100%" height="600px">
+-->
+        <embed src="/pdf/grand_diez.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+     
+<div data-toggle="modal" class="modal fade" id="i20_Modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">i20</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+<!--
+         <embed src="/pdf/eon.pdf"
+                            frameborder="0" width="100%" height="600px">
+-->
+        <embed src="/pdf/i_20.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    
+     <div data-toggle="modal" class="modal fade" id="accent_Modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Accent Sedan</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+<!--
+         <embed src="/pdf/eon.pdf"
+                            frameborder="0" width="100%" height="600px">
+-->
+        <embed src="/pdf/accent_sedan.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+     
+     <div data-toggle="modal" class="modal fade" id="veloster_Modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Veloster</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+<!--
+         <embed src="/pdf/eon.pdf"
+                            frameborder="0" width="100%" height="600px">
+-->
+        <embed src="/pdf/veloster.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+     
+     <div data-toggle="modal" class="modal fade" id="elantra_Modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Elantra</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+<!--
+         <embed src="/pdf/eon.pdf"
+                            frameborder="0" width="100%" height="600px">
+-->
+        <embed src="/pdf/elantra.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    
+<!--    camionetas-->
+    
+         <div data-toggle="modal" class="modal fade" id="tucson_Modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Tucson</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+
+
+        <embed src="/pdf/tucson.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   
+            <div data-toggle="modal" class="modal fade" id="santafe_Modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Santa Fe</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+
+
+        <embed src="/pdf/santa_fe.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   
+            <div data-toggle="modal" class="modal fade" id="creta_Modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Creta</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+
+
+        <embed src="/pdf/creta.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    
+     <!--    taxis-->
+      
+            <div data-toggle="modal" class="modal fade" id="taxi_sedan_modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Grand Metro Sedan</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+
+
+        <embed src="/pdf/taxi_grand_sedan.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   
+     
+            <div data-toggle="modal" class="modal fade" id="taxi_hatch_modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Grand Metro Hatch Back</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+
+
+        <embed src="/pdf/taxi_hatch.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   
+          <div data-toggle="modal" class="modal fade" id="taxi_grand_sedan_modal_dos" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Súper Metro</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+
+
+        <embed src="/pdf/taxi_grand_sedan.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    
+           
+           <!--    comerciales-->
+           
+           
+                     <div data-toggle="modal" class="modal fade" id="h1_modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">H1 Panel Carga.</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+
+
+        <embed src="/pdf/h1_panel.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                     
+                       <div data-toggle="modal" class="modal fade" id="ex100_modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">EX 100</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+
+
+        <embed src="/pdf/ex_100.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                     
+                     
+                      <div data-toggle="modal" class="modal fade" id="ex90_modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">EX 90</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+
+
+        <embed src="/pdf/ex_90.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   
+     
+                           
+                      <div data-toggle="modal" class="modal fade" id="hd55_modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">HD 55</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+
+
+        <embed src="/pdf/hd_55.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   
+     
+            <div data-toggle="modal" class="modal fade" id="hd65_modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">HD 65</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+
+
+        <embed src="/pdf/hd_65.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   
+          <div data-toggle="modal" class="modal fade" id="hd78_modal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">HD 78</h4>
+        </div>
+        <div id="ion" class="modal-body">
+<!--        pdf-->
+
+
+        <embed src="/pdf/hd_78.pdf"
+                            frameborder="0" >
+<!--          <p>Some text in the modal.</p>-->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    
+           
+       
+      
+      
+      <!-------------------------------------------- /Modales ----------------------------->
+       
+       
+       
+       
+  
+        
+    </div>
+    
+
+   
+   
+   <footer>
+       <div class="mainfooter">
+          
+           <img class="hidden" src="images/hyundai-banner.png" alt="">
+           
+           <div class="containTexts">
+           
+           <div class="linkscontain_fo">
+              
+               <div class="links_fo hidden">
+                  
+                   <a href="vehiculos.html">VEHÍCULOS</a>
+                   <a href="vitrinas.html">VITRINAS</a>
+                   <a href="posventa.html">POSVENTA</a>
+                   <a href="contacto.html">CONTACTO</a>
+                   
+               </div>
+ 
+                   <div class="redes"> <a href="https://www.facebook.com/hyundaidelpacifico/"><img src="images/facebook-gris.png" alt=""></a>
+           <a href="https://www.instagram.com/hyundaidelpacifico/"><img src="images/instagram-gris.png" alt=""></a></div>
+           
+                
+               
+           </div>
+           
+           <hr>
+           
+           <div class="linkscontain_fo"> 
+           
+           <a href="privacidad.pdf">Políticas de Privacidad</a>
+           <a class="hidden" href="tratamiento_datos.pdf">Términos y Condiciones</a>
+           <a class="hidden" href="tratamiento_datos.pdf">Tratamiento de datos</a>
+           <a href="privacidad.pdf">© 2018 Hyundai del Pacífico Todos los derechos reservados</a>
+           
+           </div>
+           
+           </div>
+           
+       </div>
+       
+   </footer>
+   
+   </div>
+<!------------------   links plug------------------------>
+   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+     <script src="main.js"></script>
+     
+     
+
+     
+
+    
+</body>
+</html>

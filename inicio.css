@@ -1,0 +1,554 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Montserrat, helvetica;
+     
+    
+}
+
+.voidHeader{
+    
+    width: 100%;
+    height: 129px;
+    
+    
+}
+
+
+
+
+/*fonts*/
+
+spam{
+    font-size: 0.8em !important;
+}
+
+h1{
+    font-size: 0.8em !important;
+}
+
+h2{
+    font-size: 0.8em ;
+    margin: 20px !important;
+}
+
+h3{
+    font-size: 0.8em !important;
+}
+
+h4{
+    font-size: 0.8em !important;
+}
+
+p{
+    font-size: 0.8em ;
+    font-weight: 100 ;
+}
+
+ a{
+    font-size: 0.8em !important;
+    text-decoration: none !important;
+    
+    
+}
+
+.topMenu a{
+    color: white !important;
+}
+
+
+footer a{
+    color: lightgray;
+}
+
+body{
+    
+    background-color: white;
+    background-image: url(images/patron.png);
+    
+}
+
+
+
+.voidHeader{
+    
+    width: 100%;
+    height: 129px;
+    
+    
+}
+
+.main{
+    
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:flex-start;
+    align-items: center;
+    width: 100%;
+    
+}
+
+header{
+    
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: white;
+    z-index: 100;
+    
+    box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.3);
+    
+}
+
+.toggle{
+    display: none;
+}
+
+.topHome{
+    
+/*    width: 70%;*/
+    
+/*    width: 100%;*/
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.topHome  .logo{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+    
+    
+}
+
+.topHome a> img{
+    
+/*    width: 16%;*/
+    width: 70%;
+    height: 100%;
+    
+}
+
+.redes{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.topHome .redes img{
+    width: 25px;
+    margin: 7px;
+}
+
+.topMenu{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    background-color: #002E59;
+    
+}
+
+.topMenu ul{
+/*    margin-left: 5px;*/
+    display: flex ;
+    flex-direction: row ;
+    width: 70% ;
+    flex-wrap: nowrap ;
+    justify-content: space-around ;
+    align-items: center;
+}
+
+.topMenu ul li{
+    
+    font-size: 1em ;
+    display: flex ;
+    flex-flow: row nowrap ;
+    align-items: center ;
+     padding: 13px ;
+    list-style-type: none ;
+    
+}
+
+.selectedM{
+    border-top: solid !important;
+    padding-bottom: 3px !important;
+    transition-duration: 0.8s !important;
+    
+}
+
+.topMenu ul >li:hover{
+    
+    background-color: darkred;
+    transition-duration: 0.8s ;
+    
+}
+
+.topMenu ul li .line{
+    
+    height: 100% !important;
+    border-left-style: solid;
+    border-width: 1px !important;
+    margin-right: 10px !important;
+    
+}
+
+.topMenu ul li a{
+  
+    color: aliceblue;
+    padding-top: 3px !important;
+    
+}
+
+/*footer*/
+
+footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #232323;
+    width: 100%;
+}
+
+.mainfooter{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.mainfooter >img{
+    width: 9%;
+    height: 100%;
+}
+
+.links_fo{
+    width: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    
+}
+
+.links_fo a{
+    color: lightgray;
+    
+}
+
+.linkscontain_fo {
+    
+    margin: 10px;
+    
+    width: 100%;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.linkscontain_fo .redes img{
+    width: 25px;
+    margin: 5px;
+}
+
+.containTexts{
+    
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+        
+}
+
+
+
+.banner{
+    
+    
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.banner img{
+    
+/*    width: 70%;*/
+    height: 100%;
+    
+}
+
+/*----------------banner slider----------*/
+
+.rslides {
+/*  position: relative;*/
+  list-style: none;
+  overflow: hidden;
+  width: 70%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+.text_link{
+    
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+.text_link h1{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.text_link hr{
+    
+    width: 50%;
+    border: solid;
+    border-width: 1px;
+    margin: 15px;
+    border-color:  #002E59;
+    
+}
+
+.text_link a{
+    
+    padding: 15px 10px;
+    background-color: #002E59;
+    color: white;
+       margin: 15px;
+}
+
+.text_link a:hover{
+    background-color: #023966;
+}
+
+
+.bannerBelow{
+    
+    width: 75%;
+    height: 100%;
+    
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+
+}
+
+.bannerBelow img{
+    
+    width: 48%;
+    height: 100%;
+    
+    
+}
+
+.titleNuestrasGarantias{
+    width: 75%;    
+    
+}
+
+.titleNuestrasGarantias h2 {
+    margin-top: 25px;
+    padding: 8px;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+}
+
+.titleNuestrasGarantias .grid_icons{
+ width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 10px;
+    
+    
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: darkslategray;
+    
+}
+
+.iconGd{
+    
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.iconGd img{ 
+    
+    width: 100%;
+/*    height: 100%;*/
+    
+}
+
+
+
+.iconGd h3{
+    color: gray;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+/*-------responsive design------*/
+@media only screen and (max-width: 600px) {
+    
+    .voidHeader{
+        height: 165px;
+    }
+    
+    .toggle{
+        
+        display: block;
+        background-color: #001E59;
+        text-align: right;
+    }
+    
+     .toggle img{
+        
+        width: 7%;
+        margin: 8px 18px;
+/*        width: 100%;*/
+    }
+    .topMenu ul{
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+        
+    }
+    
+    .topMenu {
+        
+/*        display: flex;*/
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        
+        display: none;
+/*        align-items: center;*/
+/*        background-color: black;*/
+        
+    }
+    
+    .banner{
+        width: 100%;
+    }
+    
+    .bannerBelow img{
+        width: 100%;
+    }
+    
+    .bannerBelow{
+        width: 100%;
+    }
+    
+    .text_link a{
+        
+        width: 100%;
+        text-align: center;
+    }
+    
+    .titleNuestrasGarantias  .grid_icons{
+        
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .titleNuestrasGarantias  .grid_icons .iconGd{
+        
+        
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-between;
+        
+    }
+    .titleNuestrasGarantias  .grid_icons .iconGd img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .hidden{
+          display: none;    
+    }
+    
+    .topMenu a{
+        width: 100%;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+

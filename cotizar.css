@@ -1,0 +1,26 @@
+.mainCotizar{
+    width: 70%;
+    display: flex;
+    flex-flow: column nowrap;
+/*    justify-content: center;*/
+/*    align-items: center;*/
+}
+
+.mainCotizar h1{
+    
+    text-align: center;
+    margin: 15px;
+    color: darkslategray;
+    
+}
+
+.mainCotizar hr{
+
+/*    width: 60%;*/
+}
+
+@media only screen and (max-width: 600px) {
+    .mainCotizar{
+    width: 100%;
+    }
+}

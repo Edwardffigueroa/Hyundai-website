@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hyundai | Posventas </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
+<!--    <link rel="icon" href="http://zagamotos.zagacol.com/images/flavicon.png">-->
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png"/>
+    
+    <link rel="stylesheet" href="inicio.css">
+    
+    <link rel="stylesheet" href="posventa.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    
+    <!--    mapbox-->
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
+
+</head>
+
+<body>
+ 
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="1631069413816430"
+  theme_color="#002E59"
+  logged_in_greeting="Hola! En que podemos ayudarte?"
+  logged_out_greeting="Hola! En que podemos ayudarte?">
+</div>
+  
+    <div class="main"> 
+   
+   <header>
+    
+ 
+       <div class="topHome">
+          
+           <a class="logo" href="index.html">
+           <img src="images/hyundai-del-pacifico.png" alt="Zagamotos" href="index.html">
+           </a>
+           <div class="redes hidden"><p><b>SIGUENOS:</b></p> <a href="https://www.facebook.com/hyundaidelpacifico/"><img src="images/facebook-azul.png" alt=""></a>
+           <a href="https://www.instagram.com/hyundaidelpacifico/"><img src="images/instagram-azul.png" alt=""></a></div>
+           
+           <p class="hidden"><b>PBX:</b>(2) 488 3888</p>
+           
+       </div>
+       
+       <div class="toggle"><img class="menuRes" src="images/menu_icon.png" alt=""></div>
+       
+       <div class="topMenu">
+          
+           <ul>
+              
+              <a class="" href="index.html"> <li>INICIO</li></a>
+               <a class="" href="vehiculos.html"><li>VEHÍCULOS</li></a>
+               <a class="" href="vitrinas.html"><li>VITRINAS</li></a>
+               <a class="selectedM" href="posventa.html"><li>POSVENTA</li></a>
+               <a class="" href="contacto.html"><li>CONTACTO</li></a>
+               
+           </ul>
+           
+       </div>
+       
+   </header>
+   
+   <div class="voidHeader"></div>
+   
+   <div class="mainPosventa">
+   
+        <div class="banner">
+          
+           <img src="images/banner/Banner_posventa.jpg" alt="">
+        
+       </div>
+       
+       <h1>¡CONOCE NUESTROS TALLERES!</h1>
+       
+       <div id="mapa"></div>
+       
+       <div class="text_link">
+      
+       <h1>¡AGENDA TU CITA EN NUESTROS TALLERES!</h1>
+       <hr>
+       <a href="agendar.html">AGENDAR</a>
+       
+   </div>
+      
+      <h2>SAMECO</h2>
+      
+      <div class="grid_icons">
+         
+         <div class="icon_loc">
+          <img src="images/loc_icon.png" alt="">
+          <spam>Calle 15 # 36a – 223 Acopi</spam>
+          </div>
+          
+          <div class="icon_loc">
+                 <img src="images/clock_icon.png" alt="">
+          <spam>Lunes a viernes: 7:30 a.m - 5:30 p.m <br> sábados: 8:00 a.m - 2:00 p.m</spam>
+              
+          </div>
+          
+      </div>
+      
+      <h2>PASTO</h2>
+      
+            <div class="grid_icons">
+         
+         <div class="icon_loc">
+          <img src="images/loc_icon.png" alt="">
+          <spam>Cra 26 # 2 -41</spam>
+          </div>
+          
+          <div class="icon_loc">
+                 <img src="images/telefono.png" alt="">
+          <spam>729 6083</spam>
+              
+          </div>
+          
+      </div>
+      
+<!--
+      <h2>NUESTRAS GARANTÍAS</h2>
+      
+      <div class="grid_icons">
+          
+          <img src="images/garantia3.png" alt="">
+          <img src="images/garantia5.png" alt="">
+          <img src="images/garantia7.png" alt="">
+      </div>
+-->
+      
+        <div class="titleNuestrasGarantias">
+   <h2>NUESTRAS GARANTÍAS</h2>
+      
+      <div class="grid_icons">
+          
+          <div class="iconGd"><img src="images/garantia3.png" alt=""><h3>TAXIS</h3></div>
+          <div class="iconGd"><img src="images/garantia5.png" alt=""><h3>COMERCIALES</h3></div>
+          <div class="iconGd"><img src="images/garantia7.png" alt=""><H3>PARTICULARES</H3></div>
+      </div>
+   
+   </div>
+       
+       
+   </div>
+   
+   
+   <footer>
+       <div class="mainfooter">
+          
+           <img class="hidden" src="images/hyundai-banner.png" alt="">
+           
+           <div class="containTexts">
+           
+           <div class="linkscontain_fo">
+              
+               <div class="links_fo hidden">
+                  
+                   <a href="vehiculos.html">VEHÍCULOS</a>
+                   <a href="vitrinas.html">VITRINAS</a>
+                   <a href="posventa.html">POSVENTA</a>
+                   <a href="contacto.html">CONTACTO</a>
+                   
+               </div>
+ 
+                   <div class="redes"> <a href="https://www.facebook.com/hyundaidelpacifico/"><img src="images/facebook-gris.png" alt=""></a>
+           <a href="https://www.instagram.com/hyundaidelpacifico/"><img src="images/instagram-gris.png" alt=""></a></div>
+               
+           </div>
+           
+           <hr>
+           
+           <div class="linkscontain_fo"> 
+           
+           <a href="privacidad.pdf">Políticas de Privacidad</a>
+           <a class="hidden" href="tratamiento_datos.pdf">Términos y Condiciones</a>
+           <a class="hidden" href="tratamiento_datos.pdf">Tratamiento de datos</a>
+           <a href="privacidad.pdf">© 2018 Hyundai del Pacífico Todos los derechos reservados</a>
+           
+           </div>
+           
+           </div>
+           
+       </div>
+       
+   </footer>
+   
+   </div>
+<!------------------   links plug------------------------>
+   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+     <script src="main.js"></script>
+<!--
+     
+     <script>
+                    
+                    $(function($) {
+                $(document).ready(function(){
+                    $('a.fancy').fancybox({
+                        type: 'image',
+                        padding: 0,
+                        scrolling: 'no',
+                        helpers : {
+                            overlay: {
+                                css: {'background-color': '#000'},
+                                opacity: 0.9
+                            },
+                            title : { type : 'inside' }
+                        }
+                    });
+                });
+            }(jQuery));
+
+            $(".nav a").on("click", function(){
+                $(".nav").find(".active").removeClass("active");
+                $(this).parent().addClass("active");
+            });
+
+            function initMap() {
+                
+                var latLng = {lat:3.4940666, lng:-76.510803};//cali
+                var latLng2 = {lat:1.2092834, lng:-77.2921862};//pasto
+          
+
+                var mapDiv = document.getElementById('mapa');
+
+                var map = new google.maps.Map(mapDiv, { center:{lat:2.584465, lng: -77.064023}, zoom: 7});
+
+                var image ='images/location_map.png';
+                
+                var marker = new google.maps.Marker({position: latLng, map:map, title:'Hyundai', icon:image}); //cali
+                var marker2 = new google.maps.Marker({position: latLng2, map:map, title:'Hyundai', icon:image}); //cali
+                
+                
+
+                var colores = [
+                    {
+                        featureType: "all",
+                        elementType: "all",
+                        stylers: [
+                            { saturation: -50 }
+                        ]
+                    }
+                ];
+
+                var estilo = new google.maps.StyledMapType(colores);
+                map.mapTypes.set('mapa', estilo);
+                map.setMapTypeId('mapa');
+
+            }
+                    
+    </script>
+    
+-->
+<!--
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCROkZhh3Gx4vHNZQXYoIivkjc2IQbcI-M&callback=initMap"
+    async defer></script>
+-->
+    
+    <script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiZWR3YXJkZmZpZ3Vlcm9hIiwiYSI6ImNqa3N3aTdrcDQ4d2Mza3A5MGJxZm8xdTYifQ.Ib3MqTqn1_H0oAcdH8bP3A';
+
+var map = new mapboxgl.Map({
+    container: 'mapa',
+    style: 'mapbox://styles/mapbox/streets-v9',
+    center: [-77.064023,  2.584465],
+    zoom: 5.8
+});
+
+map.on('load', function () {
+    
+     map.loadImage('images/location_map.png', function(error, image) {
+          if (error) throw error;
+         map.addImage('cat', image);
+    // Add a layer showing the places.
+    map.addLayer({
+        "id": "places",
+        "type": "symbol",
+        "source": {
+            "type": "geojson",
+            "data": {
+                "type": "FeatureCollection",
+                "features": [{
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<h4>SAMECO</h4><p>Calle 15 # 36a – 223 Acopi</p>",
+                        "icon": "theatre"
+                    },  
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [-76.510803, 3.4940666]//sameco  
+                    }
+                }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<h4>PASTO</h4><p>Cra 26 # 2 -41</p>",
+                        "icon": "theatre"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [-77.2921862, 1.2092834]//pasto
+                    }
+                }]
+            }
+        },
+        "layout": {
+            "icon-image": "cat",
+             "icon-size": 0.55,
+//            "icon-image": "{icon}-15",
+            "icon-allow-overlap": true
+        }
+    });
+
+    // When a click event occurs on a feature in the places layer, open a popup at the
+    // location of the feature, with description HTML from its properties.
+    map.on('click', 'places', function (e) {
+        var coordinates = e.features[0].geometry.coordinates.slice();
+        var description = e.features[0].properties.description;
+
+        // Ensure that if the map is zoomed out such that multiple
+        // copies of the feature are visible, the popup appears
+        // over the copy being pointed to.
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
+
+        new mapboxgl.Popup()
+            .setLngLat(coordinates)
+            .setHTML(description)
+            .addTo(map);
+    });
+
+    // Change the cursor to a pointer when the mouse is over the places layer.
+    map.on('mouseenter', 'places', function () {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+
+    // Change it back to a pointer when it leaves.
+    map.on('mouseleave', 'places', function () {
+        map.getCanvas().style.cursor = '';
+    });
+});
+    });
+</script>
+     
+
+    
+</body>
+</html>

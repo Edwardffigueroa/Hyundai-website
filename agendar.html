@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hyundai | Agendar </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
+<!--    <link rel="icon" href="http://zagamotos.zagacol.com/images/flavicon.png">-->
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png"/>
+    
+    <link rel="stylesheet" href="inicio.css">
+    
+    <link rel="stylesheet" href="posventa.css">
+    
+    <link rel="stylesheet" href="contacto.css">
+    
+    <link rel="stylesheet" href="cotizar.css">
+
+    <link rel="stylesheet" href="form-design.css">
+   
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+</head>
+
+<body>
+ 
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="1631069413816430"
+  theme_color="#002E59"
+  logged_in_greeting="Hola! En que podemos ayudarte?"
+  logged_out_greeting="Hola! En que podemos ayudarte?">
+</div>
+  
+    <div class="main"> 
+   
+   <header>
+    
+ 
+       <div class="topHome">
+          
+           <a class="logo" href="index.html">
+           <img src="images/hyundai-del-pacifico.png" alt="Zagamotos" href="index.html">
+           </a>
+           <div class="redes hidden"><p><b>SIGUENOS:</b></p> <a href="https://www.facebook.com/hyundaidelpacifico/"><img src="images/facebook-azul.png" alt=""></a>
+           <a href="https://www.instagram.com/hyundaidelpacifico/"><img src="images/instagram-azul.png" alt=""></a></div>
+           
+           <p class="hidden"><b>PBX:</b>(2) 488 3888</p>
+           
+       </div>
+       
+       <div class="toggle"><img class="menuRes" src="images/menu_icon.png" alt=""></div>
+       
+       <div class="topMenu">
+          
+           <ul>
+              
+              <a class="" href="index.html"> <li>INICIO</li></a>
+               <a class="" href="vehiculos.html"><li>VEHÍCULOS</li></a>
+               <a class="" href="vitrinas.html"><li>VITRINAS</li></a>
+               <a class="selectedM" href="posventa.html"><li>POSVENTA</li></a>
+               <a class="" href="contacto.html"><li>CONTACTO</li></a>
+               
+           </ul>
+           
+       </div>
+       
+   </header>
+   
+   <div class="voidHeader"></div>
+   
+   <div class="mainCotizar">
+       
+          
+         <h1>¡Agenda tu cita en nuestros talleres!</h1>
+         
+         <hr>
+         
+         <div class="formulario">
+         
+         <form method="POST" action="https://formspree.io/clientestaller@hyundaidelpacifico.com" id="agendarf">
+            
+             <input name="nombre" type="text" placeholder="Tu Nombre"><br>
+             <input name="celular" type="text" placeholder="Celular"><br>
+             <input name="correo" type="text" placeholder="Tu Correo"><br>
+                   <select  name="taller" form="agendarf">
+                      <option value="volvo">Selecciona Sede</option>
+                      <option value="saab">Sameco</option>
+                      <option value="fiat">Pasto</option>
+                         
+                </select>
+                
+             <select  name="vehiculo" form="agendarf">
+                      <option value="none">Selecciona Vehículo</option>
+                      <option value="Eon">Eon</option>
+                      <option value="Grand i10 Sedan">Grand i10 Sedan</option>
+                      <option value="i20">i20</option>    
+                      <option value="Accent Sedan">Accent Sedan</option>    
+                      <option value="Veloster">Veloster</option>    
+                      <option value="Elantra">Elantra</option>    
+                      <option value="Ioniq Hibrido">Ioniq Hibrido</option>    
+                      <option value="Tucson">Tucson</option>    
+                      <option value="Santa Fe">Santa Fe</option>    
+                      <option value="Creta">Creta</option>    
+                      <option value="Taxi - Grand Metro Sedan">Taxi - Grand Metro Sedan</option>    
+                      <option value="Taxi - Grand Metro Hatch Back">Taxi - Grand Metro Hatch Back</option>    
+                      <option value="Taxi - Súper Metro">Taxi - Súper Metro</option>    
+                      <option value="EX 100">EX 100</option>    
+                      <option value="EX 90">EX 90</option>    
+                      <option value="HD 55">HD 55</option>    
+                      <option value="HD 65">HD 65</option>    
+                      <option value="HD 78">HD 78</option>    
+                      <option value="H 380">H 380</option>  
+            </select>
+            
+            <br>
+            <input name="fecha" type="date" placeholder="fecha">
+            <br>
+            <input name="hora" type="time" placeholder="hora" >
+             
+            
+            <spam><input type="checkbox" name="terminos" value="aceptoTyC" required>  <a href="tratamiento_datos.pdf"> Acepto Términos y Condiciones*</a></spam> <br>
+             
+               <input type="submit" value="Agendar" >
+
+         </form>
+         
+         </div>
+       
+   </div>
+   
+   
+   
+   <footer>
+       <div class="mainfooter">
+          
+           <img class="hidden" src="images/hyundai-banner.png" alt="">
+           
+           <div class="containTexts">
+           
+           <div class="linkscontain_fo">
+              
+               <div class="links_fo hidden">
+                  
+                   <a href="vehiculos.html">VEHÍCULOS</a>
+                   <a href="vitrinas.html">VITRINAS</a>
+                   <a href="posventa.html">POSVENTA</a>
+                   <a href="contacto.html">CONTACTO</a>
+                   
+               </div>
+ 
+                   <div class="redes"> <a href="https://www.facebook.com/hyundaidelpacifico/"><img src="images/facebook-gris.png" alt=""></a>
+           <a href="https://www.instagram.com/hyundaidelpacifico/"><img src="images/instagram-gris.png" alt=""></a></div>
+           
+                
+               
+           </div>
+           
+           <hr>
+           
+           <div class="linkscontain_fo"> 
+           
+           <a href="privacidad.pdf">Políticas de Privacidad</a>
+           <a class="hidden" href="tratamiento_datos.pdf">Términos y Condiciones</a>
+           <a class="hidden" href="tratamiento_datos.pdf">Tratamiento de datos</a>
+           <a href="privacidad.pdf">© 2018 Hyundai del Pacífico Todos los derechos reservados</a>
+           
+           </div>
+           
+           </div>
+           
+       </div>
+       
+   </footer>
+   
+   </div>
+<!------------------   links plug------------------------>
+   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+     <script src="main.js"></script>
+     
+
+    
+</body>
+</html>
